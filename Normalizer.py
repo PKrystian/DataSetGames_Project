@@ -1,15 +1,12 @@
 import pandas as pd
 
 class Normalizer:
+    ''' Normalizer object contains functions for normalizing data '''
     def __init__(self):
         pass
 
-    def drop_cols(df, column_list):
-        for column in column_list:
-            if column in df.columns:
-                df.drop(column, inplace = True, axis = 1)
-
-    def one_hot_encoder(df, value_list, column_name):
+    def one_hot_encoder(self, df, value_list, column_name):
+        ''' One hot encodes a given column from DataFrame '''
         for value in value_list:
             df[value] = 0
 
