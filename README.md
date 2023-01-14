@@ -31,7 +31,7 @@ Now we check how does plotbox look after cleaning:
 Now we normalize the data through one hot encoder function.
 Here's how our dataset looks like now.
 
-<img src="https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/5.PNG" width="700">
+<img src="https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/5.PNG" width="900">
 
 After cleaning the data, we can start training the model, we have chosen PCA, which will reduce the number of data only to the most important.
 Here's how our weight graph looks like.
