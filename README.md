@@ -18,6 +18,7 @@ Now we check for irregularities through plotbox:
 <img src="https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/2.PNG" width="700">
 
 We can see that below 1995 there are only single game records, later after analysis we will remove them.
+
 Here is the heatmap of columns with correlation. We can see their little degree of connections.
 
 <img src="https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/3.png" width="700">
