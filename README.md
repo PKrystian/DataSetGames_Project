@@ -39,7 +39,7 @@ Here's how our weight graph looks like.
 <img src="https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/6.PNG" width="700">
 
 We see a low degree of importance of the data, which means that our data does not have a sufficiently large correlation with the Global sales.
-After training the model, we obtained a percentage result with a degree of: __0.0422979797979798__
+After training the model, we obtained a percentage result with a degree of: **0.0422979797979798**
 
 ## Conclusion:
 Based on the results of trained models, we can conclude that we have too little correlating information in our Dataset. The changes that we can apply include increasing the data range or adding new columns along a greater correlation with sales (e.g. game budget).
