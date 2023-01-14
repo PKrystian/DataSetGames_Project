@@ -11,7 +11,7 @@ Utilizing kaggle's dataset of games and game sales, program will create a predic
 First, after importing the data from the csv file, we start analyzing our dataset.
 
 Here we see the 5 best selling games from our dataset:
-![top5](https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/1.PNG "top5")
+<img src="[Assets/icon.png](https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/1.PNG)" width="200">
 
 Now we check for irregularities through plotbox:
 ![plotbox](https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/2.PNG "plotbox")
