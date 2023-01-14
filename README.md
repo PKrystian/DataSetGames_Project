@@ -8,7 +8,7 @@ Utilizing kaggle's dataset of games and game sales, program will create a predic
 
 ## Operation scheme
 
-![test]([https://github.com/PKrystian/DataSetGames_Project/tree/master/Photos](https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/1.PNG) "test")
+![test](https://github.com/PKrystian/DataSetGames_Project/blob/master/Photos/1.PNG "test")
 
 ## Conclusion:
 Based on the results of trained models, we can conclude that we have too little correlating information in our Dataset. The changes that we can apply include increasing the data range or adding new columns along a greater correlation with sales (e.g. game budget).
