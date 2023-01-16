@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 
 from DataManager import DataManager
+from Normalizer import Normalizer
 
 class TestDataManager:
     def test_get_unique_col(self):
@@ -36,5 +37,17 @@ class TestDataManager:
         Manager.drop_cols(test_df, ['b', 'c'])
 
         result = test_df
+
+        np.testing.assert_array_equal(expected, result)
+
+    def test_one_hot_encoder(self):
+        abc=['a','b','c']
+
+        test = pd.DataFrame(abc, columns=['name'])
+        Norm = Normalizer()
+
+        expected = np.array([[1,0,0],[0,1,0],[0,0,1]])
+        Norm.one_hot_encoder(test, test['name'].unique(), 'name')
+        result = test
 
         np.testing.assert_array_equal(expected, result)
